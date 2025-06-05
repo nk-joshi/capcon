@@ -46,7 +46,7 @@ function Body() {
                 Capcons Pro
               </span>
             </button>
-            <div style={{ marginTop: "5%" }}>
+            <div className="brand-right-container">
               <p className="title">Monetization: Earn on Your Terms</p>
               <p
                 style={{ marginTop: "2%" }}
@@ -57,7 +57,7 @@ function Body() {
                 growth. With Capcons, creators and brands set their own pricing,
                 ensuring sustainable income and deeper community engagement.
               </p>
-              <div style={{ margin: "15% 0" }}>
+              <div className="accordions-container">
                 <Accordion
                   items={[
                     {

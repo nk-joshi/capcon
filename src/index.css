@@ -26,6 +26,10 @@ span {
   font-family: Montserrat;
 }
 
+.brand-right-container {
+  margin-top: 3%;
+}
+
 button {
   width: -webkit-fill-available;
 }
@@ -38,12 +42,25 @@ button {
   padding: 3.2rem 5rem;
 }
 
+.accordions-container {
+  margin: 12% 0;
+}
+
+@media screen and (min-width: 1100px) {
+  .accordions-container {
+    margin: 15% 0;
+  }
+}
+
 @media screen and (min-width: 1500px) {
   .body-wrapper {
     padding: 5.7rem 6.5rem;
   }
   .body-content {
     padding: 5.7rem 0;
+  }
+  .brand-right-container {
+    margin-top: 5%;
   }
 }
 
