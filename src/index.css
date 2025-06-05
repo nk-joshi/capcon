@@ -185,7 +185,7 @@ button {
 }
 
 .accordion-content.open {
-  max-height: 500px; /* can be large enough to accommodate content */
+  max-height: 500px;
 }
 
 .accordion-content.active {

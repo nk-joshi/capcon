@@ -41,6 +41,7 @@ function BodySection1() {
       <img
         style={{ margin: "10% 0 5% 0" }}
         src={PartnersLogo}
+        fetchPriority="high"
         alt="logo of partners"
       />
     </div>
