@@ -3,7 +3,7 @@ import HeaderIcon from "../assets/header.svg";
 function Header() {
   return (
     <>
-      <img src={HeaderIcon} alt="header image" />
+      <img fetchPriority="high" src={HeaderIcon} alt="header image" />
     </>
   );
 }
